@@ -1,6 +1,4 @@
 'use strict'
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ?
-    '/table-contacts/' :
-    '/'
+  NODE_ENV: '"production"'
 }
